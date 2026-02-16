@@ -1,0 +1,572 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+     background-color: rgb(20, 20, 20);
+}
+
+#demo1{
+    height: 660px;
+    width: 1225px;
+}
+
+#demo2{
+    height: 25px;
+    width: 110px;
+    position: absolute;
+    top: 22px;
+    right: 1060px;
+}
+#para1{
+    color: white;
+    position: relative;
+    bottom: 636px;
+    left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#para2{
+    color: white;
+    position: relative;
+    bottom: 651px;
+    left: 233px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#para3{
+    color: white;
+    position: relative;
+    bottom: 667px;
+    left: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#para4{
+    color: white;
+    position: relative;
+    bottom: 682px;
+    left: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#para5{
+    color: white;
+    position: relative;
+    bottom: 698px;
+    left: 412px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#para6{
+    color: white;
+    position: relative;
+    bottom: 713px;
+    left: 519px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#para7{
+    color: white;
+    position: relative;
+    bottom: 728px;
+    left: 581px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#search{
+    height: 23px;
+    width: 23px;
+    position: relative;
+    bottom: 755px;
+    left: 980px;
+
+}
+
+#para8{
+    color: white;
+    position: relative;
+    bottom: 776px;
+    left: 1020px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#demo3{
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    top: 22px;
+    left: 1085px;
+}
+ #doll{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    bottom: 930px;
+    left: 1120px;
+    border-radius: 5px;
+} 
+#doll:hover{
+    border:2px solid white;
+}
+#arrow{
+    height: 6px;
+    width: 10px;
+    position: relative;
+    bottom: 945px;
+    left: 1125px;
+    
+}
+#Nspecial{
+
+    height: 165px;
+    width: 450px;
+   position: relative;
+    bottom: 720px;
+   right: 15px;
+}
+#para9{
+    position: relative;
+    bottom: 700px;
+    left: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#para10{
+    position: relative;
+    bottom: 685px;
+    left: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#playbutton{
+    height: 40px;
+    width: 120px;
+    border: 2px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 670px;
+    left: 44px;
+    border-radius: 3px;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#rightarrow{
+    height:32px;
+    width: 40px;
+    position: relative;
+    bottom: 706px;
+    left: 64px;
+}
+#morebutton{
+    width: 150px;
+    height: 42px;
+    padding: 1%;
+    background-color: rgba(163, 159, 159, 0.5); /* silver with 50% transparency */
+    border-radius: 3px;
+    font-weight: bold;
+    position: relative;
+    bottom: 747px;
+    left: 175px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#iletter{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 790px;
+    left: 199px;
+}
+#circle{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 785px;
+    left: 167px;
+}
+#side{
+    width: 130px;
+    height: 35px;
+    padding: 1%;
+    background-color: rgba(163, 159, 159, 0.5);
+    border-radius: 2px;
+    font-weight: bold;
+    position: relative;
+    bottom: 825px;
+    left: 1079px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#line{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    bottom: 860px;
+    left: 1062px;
+}
+#nextwatch{
+    color: white;
+    position: relative;
+    bottom: 790px;
+    left: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.nextwatchimage{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 785px;
+    left: 48px; 
+    border-radius: 3px;
+}
+.nextwatchimage:hover{
+    transform: scale(1.4);  
+    z-index: 5;  
+    border: 2px solid rgb(255, 0, 0);  
+}
+/* additional img */
+#nextwatchimage{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 924px;
+    left: 1065px;
+    border-radius: 3px;
+}
+#nextwatchimage:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red; 
+}
+
+
+#wwe{
+    color: white;
+    position: relative;
+    bottom: 890px;
+    left: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.wwe{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 880px;
+    left: 48px;
+    border-radius: 3px;
+}
+.wwe:hover{
+    transform: scale(1.4);  
+    z-index: 5;
+    border: 2px solid red;    
+}
+/* additional img */
+#wweimg{
+     height: 134px;
+    width: 250px;
+    position: relative;
+    bottom: 1018px;
+    left: 1065px;
+    border-radius: 3px;
+}
+#wweimg:hover{
+    transform: scale(1.4);  
+    z-index: 5;  
+    border: 2px solid red;
+}
+
+
+
+#teen{
+    color: white;
+    position: relative;
+    bottom: 990px;
+    left: 47px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.teen{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 980px;
+    left: 48px;
+    border-radius: 3px;
+}
+.teen:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;   
+}
+/* additional img */
+#teenimg{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1119px;
+    left: 1065px;
+    border-radius: 3px;
+
+} 
+#teenimg:hover{
+    transform: scale(1.4);  
+    z-index: 5;
+    border: 2px solid red;  
+}
+
+
+#topshows{
+    color: white;
+    position: relative;
+    bottom: 1090px;
+    left: 47px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.topshows{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1080px;
+    left: 48px;
+    border-radius: 3px;
+}
+.topshows:hover{
+    transform: scale(1.4);  
+    z-index: 5;   
+    border: 2px solid red; 
+}
+/* additional img */
+#topshowsimg{
+    height: 134px;
+    width: 250px;
+    position: relative;
+    bottom: 1219px;
+    left: 1065px;
+    border-radius: 3px;
+}
+#topshowsimg:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red; 
+}
+#Asian{
+    color: white;
+    position: relative;
+    bottom: 1191px;
+    left: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.asian{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1180px;
+    left: 48px;
+    border-radius: 3px;
+}
+.asian:hover{
+    transform: scale(1.4);  
+    z-index: 5;
+    border: 2px solid red; 
+}
+#asianimg{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1319px;
+    left: 1065px;
+    border-radius: 3px;
+}
+#asianimg:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red; 
+}
+
+#Kids{
+    color: white;
+    position: relative;
+    bottom: 1290px;
+    left: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.kids{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1275px;
+    left: 50px;
+    border-radius: 3px;
+}
+.kids:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;
+}
+#kidsimg{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1414px;
+    left: 1065px;
+    border-radius: 3px;
+}
+#kidsimg:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;
+}
+
+#kdrama{
+   color: white;
+    position: relative;
+    bottom: 1390px;
+    left: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.Kdrama{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1370px;
+    left: 50px;
+    border-radius: 3px;
+}
+.Kdrama:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;
+}
+
+#kdramimg{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1509px;
+    left: 1065px;
+    border-radius: 3px;
+}
+#kdramimg:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;
+}
+
+#Critically{
+    color: white;
+    position: relative;
+    bottom: 1480px;
+    left: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.Critically{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1460px;
+    left: 50px;
+    border-radius: 3px;
+}
+.Critically:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;
+}
+#criticallyimg{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1599px;
+    left: 1065px;
+    border-radius: 3px;
+}
+#criticallyimg:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;
+}
+
+
+#firstRomance{
+    color: white;
+    position: relative;
+    bottom: 1580px;
+    left: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.Firstromance{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1560px;
+    left: 50px;
+    border-radius: 3px;
+}
+.Firstromance:hover{
+    transform: scale(1.4);  
+    z-index: 5;
+    border: 2px solid red; 
+}
+#firstromanceimg{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1699px;
+    left: 1065px;
+    border-radius: 3px;
+}
+#firstromanceimg:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;
+}
+
+
+#indiancinema{
+    color: white;
+    position: relative;
+    bottom: 1680px;
+    left: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.Indiancinema{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1660px;
+    left: 50px;
+    border-radius: 3px;
+}
+.Indiancinema:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;
+}
+#indiancinemaimg{
+    height: 135px;
+    width: 250px;
+    position: relative;
+    bottom: 1799px;
+    left: 1065px;
+    border-radius: 3px;
+}
+#indiancinemaimg:hover{
+    transform: scale(1.4);  
+    z-index: 5; 
+    border: 2px solid red;
+}

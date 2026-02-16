@@ -1,0 +1,382 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 244, 244);
+}
+#titlediv{
+  height: 68px;
+  width: 1224px;
+  background-color: white;
+  border: 1.5px solid rgb(238, 234, 234);
+}
+#netflixlogo{
+  height: 40px;
+  position: relative;
+  bottom: 55px;
+  left: 155px;
+}
+#profile{
+  height: 35px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 55px;
+  left: 870px;
+}
+#profilearrow{
+  height: 9px;
+  position: relative;
+  bottom: 125px;
+  left: 1045px;
+}
+#overview{
+  position: relative;
+  bottom: -70px;
+  left: 200px;
+}
+#backpage{
+  height: 40px;
+  width: 250px;
+  border-radius: 4px;
+  position: relative;
+  bottom: 10px;
+  left: 140px;
+}
+#backpage:hover{
+  background-color: rgb(214, 212, 212);
+}
+#leftarrowback{
+  width: 20px;
+  height: 25px;
+  position: relative;
+  top: 8px;
+  left: 20px;
+}
+#backword{
+  font-size: 14px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  bottom: 17px;
+  left: 50px;
+}
+#Overview{
+  height: 40px;
+  width: 250px;
+  border-radius: 4px;
+  position: relative;
+  bottom: -5px;
+  left: 150px;
+}
+#Overview:hover{
+  background-color: rgb(214, 212, 212);
+}
+#homeicon{
+  height: 27px;
+  width: 32px;
+  position: relative;
+  bottom: -5px;
+  left: 7px;
+}
+#Overword{
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  bottom: 20px;
+  left: 50px;
+}
+#membership{
+  height: 40px;
+  width: 250px;
+  border-radius: 4px;
+  position: relative;
+  top: 15px;
+  left: 150px;
+}
+#membership:hover{
+  background-color: rgb(214, 212, 212);
+}
+#security{
+  height: 40px;
+  width: 250px;
+  border-radius: 4px;
+  position: relative;
+  top: 25px;
+  left: 150px;
+}
+#security:hover{
+  background-color: rgb(214, 212, 212);
+}
+#Devices{
+  height: 40px;
+  width: 250px;
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  left: 150px;
+}
+#Devices:hover{
+  background-color: rgb(214, 212, 212);
+}
+#pro{
+  height: 40px;
+  width: 250px;
+  border-radius: 4px;
+  position: relative;
+  top: 45px;
+  left: 150px;
+}
+#pro:hover{
+  background-color: rgb(214, 212, 212);
+}
+#accountword{
+  font-size: 42px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  bottom: 260px;
+  left:410px;
+}
+#memberword{
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  bottom: 255px;
+  left:410px;
+}
+#moblieplan{
+  background-color: white;
+  border: 1.5px solid rgb(238, 234, 234);
+  height: 290px;
+  width: 650px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 240px;
+  left: 410px;
+}
+#moblieword{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top:30px;
+  left:21px;
+}
+#bluediv{
+  height: 40px;
+  width: 215px;
+  background: linear-gradient(to right, #2b3a9a, #1e90ff);
+  position: relative;
+  top: 15px;
+}
+#nextword{
+  color: rgb(128, 126, 126);
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top:38px;
+  left:21px;
+}
+#gpay{
+  height: 40px;
+  width: 570px;
+  position: relative;
+  top:50px ;
+  left: 18px;
+}
+#manageword{
+  height: 50px;
+  width: 590px;
+  position: relative;
+  top: 70px;
+  left: 20px;
+}
+#manageword:hover{
+  background-color: rgb(214, 212, 212);
+}
+#manage{
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#forwardarrow{
+  position: relative;
+  top: 35px;
+  left: 580px;
+}
+#quickword{
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  bottom: 205px;
+  left:411px;
+}
+#quickdiv{
+  background-color: white;
+  border: 1.5px solid rgb(238, 234, 234);
+  height: 630px;
+  width: 650px;
+  border-radius: 10px;
+  position: relative;
+  left:410px;
+  bottom: 190px;
+}
+#quickindiv{
+  height: 60px;
+  width: 608px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+#quickindiv:hover{
+  background-color: rgb(214, 212, 212);
+}
+#forarrow{
+  position: relative;
+  top: -20px;
+  left: 595px;
+}
+#line1{
+  height: 10px;
+  width: 605px;
+  position: relative;
+  bottom: 425px;
+  right: 10px;
+}
+#line2{
+  height: 10px;
+  width: 605px;
+  position: relative;
+  bottom: 355px;
+  left: 15px;
+}
+#line3{
+  height: 10px;
+  width: 605px;
+  position: relative;
+  bottom: 285px;
+  left: 15px;
+}
+#line4{
+  height: 10px;
+  width: 605px;
+  position: relative;
+  bottom: 215px;
+  left: 15px;
+}
+#line5{
+  height: 10px;
+  width: 605px;
+  position: relative;
+  bottom: 145px;
+  left: 15px;
+}
+#line0{
+  height: 10px;
+  width: 605px;
+  position: relative;
+  bottom: 605px;
+  left: 15px;
+}
+#edit{
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(128, 126, 126);
+  position: relative;
+  bottom: 230px;
+  left: 450px;
+}
+hr{
+  position: relative;
+  bottom: 85px;
+}
+#question{
+  position: relative;
+  bottom: 70px;
+  left: 180px;
+}
+#contact{
+  color: black;
+  position: relative;
+  bottom: 88px;
+  left: 250px;
+}
+#contact:hover{
+color: black;
+}
+#investor{
+  color:rgb(158, 156, 156);
+  position: relative;
+  bottom: 58px;
+  left: 110px;
+}
+#investor:hover{
+  color: black;
+}
+#terms{
+  color: rgb(158, 156, 156);
+  position: relative;
+  bottom: 28px;
+  left: -10px;
+}
+#terms:hover{
+  color: black;
+}
+#gift{
+  color: rgb(158, 156, 156);
+  position: relative;
+  bottom: 1px;
+  left: -100px;
+}
+#gift:hover{
+  color: black;
+}
+#media{
+  color: rgb(158, 156, 156);
+  position: relative;
+  bottom: 58px;
+  left: 110px;
+}
+#media:hover{
+  color: black;
+}
+#privacy{
+  color:rgb(158, 156, 156);
+  position: relative;
+  bottom: 28px;
+  left: -10px;
+}
+#privacy:hover{
+  color: black;
+}
+#job{
+  color: rgb(158, 156, 156);
+  position: relative;
+  bottom: 58px;
+  left: 110px;
+}
+#job:hover{
+  color: black;
+}
+#audio{
+  color: rgb(158, 156, 156);
+  position: relative;
+  bottom: 28px;
+  left: -10px;
+}
+#audio:hover{
+  color: black;
+}
+#help{
+  color: rgb(158, 156, 156);
+  position: relative;
+  bottom: 58px;
+  left: 110px;
+}
+#help:hover{
+  color: black;
+}
